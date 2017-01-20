@@ -8,6 +8,7 @@ from aiohttp import web
 def index(request):
     return web.Response(body=b'<h1>Web APP</h1>')
 
+
 @asyncio.coroutine
 
 async def init(loop):
